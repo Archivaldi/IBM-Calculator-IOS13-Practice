@@ -16,5 +16,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func heightSliderChanged(_ sender: UISlider) {
+        print(round(100 * sender.value) / 100)
+    }
+    @IBAction func weightSliderChanged(_ sender: UISlider) {
+        print(round(100 * sender.value) / 100)
+    }
 }
 
